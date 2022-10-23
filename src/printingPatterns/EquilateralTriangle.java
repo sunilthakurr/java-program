@@ -1,0 +1,40 @@
+package printingPatterns;
+
+import java.util.Scanner;
+
+public class EquilateralTriangle {
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        int n = obj.nextInt();
+        triangle(n);
+
+    }
+
+    public static void triangle(int n) {
+        int star = 1;
+        int space = n - 1;
+        int row = 1;
+
+
+        while (row <= n) {
+
+            //   SPACE
+            int i = 1;
+            while (i <= space) {
+                System.out.print("  ");
+                ++i;
+            }
+            //   STAR
+            int j = 1;
+            while (j <= star) {
+                System.out.print("* ");
+                ++j;
+            }
+            space -= 1;
+            star += 2;
+            row += 1;
+            System.out.println();
+        }
+    }
+}
+
