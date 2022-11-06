@@ -8,6 +8,8 @@ public class QueueUse {
             queue.enqueue(i);
 
         }
+
+
         while (!queue.isEmpty()) {
             try {
                 System.out.println(queue.dequeue());
