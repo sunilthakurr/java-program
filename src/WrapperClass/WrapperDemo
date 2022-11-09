@@ -1,0 +1,24 @@
+Wrapper class :- Non primitive data type in place of primitive data type is called wrapper class.
+                Non primitive version of all primitive data type is called wrapper class
+                int -----> Integer
+                long-----> Long
+                short-----> Short
+
+
+Integer a = 10;
+    Here , a will store address and stored in heap memory but it will display its value . we will learn
+
+Autoboxing :-  when we convert primitive in nonprimitive is called autoboxing
+            Integer a = 10;
+            int a1 = 10;
+            a = a1;          // Autoboxing
+
+Unboxing :- when we convert nonprimitive data type into primitive data type then we call it unboxing.
+
+            int b = -6;
+            Integer b2 = -9009;
+
+            b = b2;
+
+
+ARRAYlIST :- the ra
