@@ -1,5 +1,8 @@
 package CHEGG;
 
+//ex :- 1039  =  19 + 03 = 22
+//      123   =  13 + 2  = 15
+
 import java.util.Scanner;
 
 public class ClosureSum {
