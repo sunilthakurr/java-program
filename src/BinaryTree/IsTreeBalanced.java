@@ -35,3 +35,5 @@ public class IsTreeBalanced {
         return 1 + Math.max(leftHeight, rightHeight);  // return 1 + max of both height because if root is not null then we count it as 1
     }
 }
+
+//Time Complexity :- O(n.h) where h is the height of tree
