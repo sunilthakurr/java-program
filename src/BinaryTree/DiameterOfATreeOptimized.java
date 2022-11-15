@@ -1,5 +1,7 @@
 package BinaryTree;
 
+//import Pair class to run this program if you take it from github
+
 public class DiameterOfATreeOptimized {
 
     public static void main(String[] args) {
