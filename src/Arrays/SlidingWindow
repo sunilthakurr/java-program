@@ -1,0 +1,49 @@
+
+
+
+
+sliding window
+
+A array or string is given and we have to give substring or subarray as output
+and a value K is given on which condition is given or maxima/minima is given
+
+In this case we apply sliding window
+
+There are two types of window
+
+1. Variable size window
+2. Fixed size window  :- size of subarray or substring is fixed
+
+
+ex :- find maximum of k sized subarray whose value is maxm.
+
+FIXED SIZED WINDOW
+
+find answer of first window
+Then add one number to window and subtract the last element(shrink) and update sum with maxm.
+
+
+VARIABLE SIZED WINDOW
+
+take two pointer si, ei and starts both from 0.
+grow window ei till the length of array
+shrink window if possible by increasing the si
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
