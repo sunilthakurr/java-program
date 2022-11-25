@@ -3,7 +3,7 @@ package BST;
 import BinaryTree.BinaryTreeNode;
 import BinaryTree.TakeInputLevelWise;
 
-public class CheckBinaryTreeIsBST {
+public class ISBST1 {
     public static void main(String[] args) {
         BinaryTreeNode<Integer> root = TakeInputLevelWise.takeInputLevelWise();
         System.out.println(isBST(root));
