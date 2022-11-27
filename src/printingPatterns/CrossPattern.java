@@ -1,4 +1,4 @@
-package printingPatterns;
+// cross print
 
 //    *       *
 //      *   *
