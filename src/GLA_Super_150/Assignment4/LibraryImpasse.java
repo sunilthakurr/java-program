@@ -24,7 +24,6 @@ public class LibraryImpasse {
         }
         System.out.println(count);
     }
-
     public static int Addition(int[] arr, int ei) {
         int sum = 0;
         for (int i = 0; i < ei; ++i) {
