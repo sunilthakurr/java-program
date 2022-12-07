@@ -31,7 +31,6 @@ public class SubArraysHavingProductLessThanK {
         for (int i = 0; i < N; i++) {
             array[i] = sc.nextInt();
         }
-
         int count = countsubarray(array, N, k);
         System.out.print(count);
     }
