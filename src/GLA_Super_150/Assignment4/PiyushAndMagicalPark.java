@@ -1,7 +1,6 @@
 package GLA_Super_150.Assignment4;
 
 import java.util.Scanner;
-
 public class PiyushAndMagicalPark {
     public static void main(String args[]) {
         // Your Code Here
