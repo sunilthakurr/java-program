@@ -18,6 +18,5 @@ public class PeranceParty {
                 sum += arr[i];
         }
         System.out.println(sum);
-
     }
 }
