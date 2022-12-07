@@ -29,7 +29,6 @@ public class LengthOfLongestSubstringWithoutRepeatingCharacter {
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
         // System.out.println(str);
-
         int len = longestUniqueSubsttr(str);
         System.out.println(len);
     }
