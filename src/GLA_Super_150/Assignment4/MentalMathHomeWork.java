@@ -2,7 +2,6 @@ package GLA_Super_150.Assignment4;
 
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class MentalMathHomeWork {
     public static void main(String args[]) {
         Scanner obj = new Scanner(System.in);
