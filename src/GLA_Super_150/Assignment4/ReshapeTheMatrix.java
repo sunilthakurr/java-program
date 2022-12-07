@@ -38,6 +38,7 @@ public class ReshapeTheMatrix {
             for (int j = 0; j < col; ++j) {
                 System.out.print(arr[i][j] + " ");
             }
+
             System.out.println();
         }
     }
