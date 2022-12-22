@@ -14,7 +14,7 @@ public class ChangeElementsIn2DMatrix {
         for (int i = 0; i < row; ++i) {
             for (int j = 0; j < col; ++j) {
                 arr[i][j] = obj.nextInt();
-                if (arr[i][j] == 0) {
+                if (arr[i][j] == 1) {
                     list1.add(i);
                     list2.add(j);
                 }
@@ -24,7 +24,7 @@ public class ChangeElementsIn2DMatrix {
         for (int i = 0; i < row; ++i) {
             for (int j = 0; j < col; ++j) {
                 if (list1.contains(i) || list2.contains(j)) {
-                    arr[i][j] = 0;
+                    arr[i][j] = 1;
                 }
             }
         }
