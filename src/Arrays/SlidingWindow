@@ -1,10 +1,6 @@
-
-
-
-
 sliding window
 
-A array or string is given and we have to give substring or subarray as output
+An array or string is given and we have to give substring or subarray as output
 and a value K is given on which condition is given or maxima/minima is given
 
 In this case we apply sliding window
