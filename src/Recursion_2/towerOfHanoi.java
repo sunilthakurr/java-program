@@ -25,8 +25,8 @@ public class towerOfHanoi {
     }
 }
 
-// Logic :-
-//     	step 1:- Move (n - 1) from A to B using C
+//         Logic :-
+//     	   step 1:- Move (n - 1) from A to B using C
 //         step 2:- Move nth from A to C
 //         step 3:- Move (n - 1) from B to C using A
 
