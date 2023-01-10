@@ -1,6 +1,7 @@
 package PriorityQueue;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class Priority_Queue {
 
@@ -8,6 +9,9 @@ public class Priority_Queue {
 
     public Priority_Queue() {
         heap = new ArrayList<>();
+    }
+
+    public Priority_Queue(int i, Comparator<Object> reverseOrder) {
     }
 
     boolean isEmpty() {
