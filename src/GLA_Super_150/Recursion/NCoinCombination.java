@@ -2,7 +2,7 @@ package GLA_Super_150.Recursion;
 
 import java.util.Scanner;
 
-public class ThreeCoinResultComb {
+public class NCoinCombination {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter the number of coins");
